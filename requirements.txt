@@ -1,6 +1,0 @@
-pymem
-win32
-glfw
-imgui[full]
-PyOpenGL
-requests

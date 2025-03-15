@@ -5,7 +5,7 @@ import win32api
 import win32con
 import time
 import random
-from src.utils.OffsetsManager import OffsetsManager
+from utils.OffsetsManager import OffsetsManager
 
 class TriggerBot:
     def __init__(self, random_delay=110, min_delay=240, key_bind=ord("X"), attack_all=False):

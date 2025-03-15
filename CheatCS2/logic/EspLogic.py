@@ -2,7 +2,7 @@ import pymem
 import pymem.process
 import time
 import imgui
-from src.utils.OffsetsManager import OffsetsManager
+from utils.OffsetsManager import OffsetsManager
 
 class ESP:
     def __init__(self, window_width, window_height, **settings):

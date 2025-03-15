@@ -5,9 +5,9 @@ import win32gui
 import win32con
 import imgui
 import threading
-from EspLogic import ESP
-from AimLogic import AimLogic
-from TriggerBotLogic import TriggerBot
+from logic.EspLogic import ESP
+from logic.AimLogic import AimLogic
+from logic.TriggerBotLogic import TriggerBot
 
 WINDOW_WIDTH = 1920
 WINDOW_HEIGHT = 1080
